@@ -1,21 +1,22 @@
 /**
  * @format
  */
-//
+
 // import {AppRegistry} from 'react-native';
 // import App from './App';
 // import {name as appName} from './app.json';
 //
 // AppRegistry.registerComponent(appName, () => App);
-// End of original code
+// // End of original code
 
 // Import libraries to help creating a component.
 import React from 'react';
-import {Text, AppRegistry} from 'react-native';
+import {AppRegistry} from 'react-native';
+import Header from './src/components/Header';
 
 // Create a Component
 const App = () => {
-  return <Text>Hello World!</Text>;
+  return <Header />;
 };
 
 // Render it to the device
